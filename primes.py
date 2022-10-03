@@ -6,7 +6,7 @@ import math
 def primes(number_of_primes):
     list = []#list of prime numbers that have been found
     if (number_of_primes <= 0):#if 0 or less entered give an error
-        raise ValueError()
+        raise ValueError("ValueError exception thrown")
     else: 
         i=2 #the first prime number
         while len(list)!= number_of_primes: #if we have not got the correct number of items in the list
@@ -20,7 +20,6 @@ def primes(number_of_primes):
             print("loop")
         return list
 
-print(primes(0))
 
 
 
